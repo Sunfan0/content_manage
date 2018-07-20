@@ -1,5 +1,5 @@
 <template>
- <!-- <div class="layout">
+  <div class="layout">
     <Layout>
       <Header>
         <Menu mode="horizontal" theme="dark" active-name="1">
@@ -66,10 +66,9 @@
         </Layout>
       </Layout>
     </Layout>
-  </div>-->
-  <div>....</div>
+  </div>
+  <!--<div>....</div>-->
 </template>
-
 <script>
 export default {
   name: 'index',
@@ -80,7 +79,7 @@ export default {
   }
 }
 </script>
-
+<style lang="less" src="../styles/index.less"></style>
 <style scoped>
   .layout{
     border: 1px solid #d7dde4;

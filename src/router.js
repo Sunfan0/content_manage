@@ -1,5 +1,5 @@
-import index from './components/index'
-import content from './components/content'
+import index from './views/index'
+import content from './views/content'
 
 const routers = [
   {
