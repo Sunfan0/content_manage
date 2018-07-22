@@ -1,14 +1,19 @@
 <template>
-  <div>....</div>
+  <div>
+    <h1>{{msg}}</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
+  name: 'content',
   data () {
     return {
-      msg: ''
+      msg: 'content .....'
     }
+  },
+  created() {
+
   }
 }
 </script>

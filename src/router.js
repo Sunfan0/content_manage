@@ -1,15 +1,27 @@
-import index from './views/index'
-import content from './views/content'
+// import index from './views/index'
+import Content from './views/content'
 
 const routers = [
   {
-    path: '/',
-    component: index
-  },
-  {
-    path: '/content',
-    component: content
+    path: '/index',
+    meta: {
+      title: 'content_manage'
+    },
+    component: (resolve) => require(['./views/index.vue'], resolve),
+    children: [
+      {
+        path: 'content',
+        meta: {
+          title: 'content_manage'
+        },
+        component: Content
+      }
+    ]
   }
+  /*{
+    path: '/',
+    component: login
+  }*/
 ];
 
 export default routers;
