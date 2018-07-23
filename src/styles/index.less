@@ -2,3 +2,24 @@
 
 //@primary-color: #8c0776;
 @link-color: #495060;
+
+//@layout-header-height: 0;
+//@layout-zero-trigger-width:0;
+
+.@{menu-prefix-cls} {
+  &-light&-vertical &-item{
+    border-right: 2px solid transparent;
+    &-active:not(.@{menu-prefix-cls}-submenu){
+      color: white;
+      border-right: 0;
+      z-index: 2;
+      background-color: white;
+    }
+  }
+}
+
+.@{card-prefix-cls}{
+  &-body {
+    padding: 0;
+  }
+}
