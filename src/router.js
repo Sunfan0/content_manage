@@ -1,20 +1,28 @@
-// import index from './views/index'
+import index from './views/index'
 import Content from './views/content'
+import Qiuqiu from './views/qiuqiu'
 
 const routers = [
   {
-    path: '/index',
+    path: '/',
     meta: {
-      title: 'content_manage'
+      title: 'index'
     },
     component: (resolve) => require(['./views/index.vue'], resolve),
     children: [
       {
         path: 'content',
         meta: {
-          title: 'content_manage'
+          title: 'content'
         },
         component: Content
+      },
+      {
+        path: 'qiuqiu',
+        meta: {
+          title: 'qiuqiu'
+        },
+        component: Qiuqiu
       }
     ]
   }

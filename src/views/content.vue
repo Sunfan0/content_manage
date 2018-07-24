@@ -50,67 +50,54 @@ export default {
           "title": "编号",
           "key": "no",
           // "fixed": "left",
-          "width": 100,
-          "sortable": true,
-          render: (h, params) => {
-            return h('P', {
-              props: {
-                // contenteditable: true,
-              }
-            }, 123);
-          }
+          "width": 150,
+          "sortable": true
         },
         {
           "title": "图片",
           "key": "img",
-          "width": 100,
           "sortable": true
         },
         {
           "title": "名称",
           "key": "name",
-          "width": 200,
           "sortable": true
         },
         {
           "title": "类型",
           "key": "type",
-          "width": 90,
           "sortable": true
         },
         {
           "title": "品牌",
           "key": "brand",
-          "width": 100,
           "sortable": true
         },
         {
           "title": "型号/规格",
           "key": "model",
-          "width": 140,
           "sortable": true
         },
         {
           "title": "单位",
           "key": "unit",
-          "width": 80,
+          "width": 100,
           "sortable": true
         },
         {
           "title": "特征描述",
           "key": "describe",
-          "width": 190,
           "sortable": true
         },
         {
           "title": "出库数量",
           "key": "num",
-          "width": 110,
+          "width": 150,
           "sortable": true
         },
         {
           type: '',
-          width: 60,
+          width: 80,
           align: 'center',
           render: (h, params) => {
             return h('Icon', {
@@ -130,33 +117,33 @@ export default {
       ],
       data1: [
         {
-          "no": 10052,
+          "no": 10001,
           "img": '图片',
           "name": '名称',
           "type": '通风',
-          "brand": 'ABB',
+          "brand": '162',
           "model": '400*500',
           "unit": '台',
           "describe": '特征',
           "num": 100
         },
         {
-          "no": 10007,
+          "no": 10002,
           "img": '图片',
           "name": '名称',
           "type": '通风',
-          "brand": 'ABB',
+          "brand": '4562',
           "model": '400*500',
           "unit": '台',
           "describe": '特征',
           "num": 39
         },
         {
-          "no": 1023,
+          "no": 10003,
           "img": '图片',
           "name": '名称',
           "type": '通风',
-          "brand": 'ABB',
+          "brand": '152',
           "model": '400*500',
           "unit": '台',
           "describe": '特征',
